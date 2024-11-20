@@ -1,0 +1,14 @@
+table {
+    border: 2px solid;
+}
+
+td, th {
+    border: 2px solid;
+}
+
+caption {
+    font-size: large;
+    font-family: Franklin Gothic Medium;
+    font-style: oblique;
+}
+
