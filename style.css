@@ -21,10 +21,23 @@ th:nth-child(even) {
     border: 1px solid red;
  }
 
-td, tr, th {
+td, tr {
     text-align: center;
     border: 1px solid;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+
+th {
+  text-align: center;
+    border: 1px solid;
+  font-variant: small-caps;
+  text-decoration: underline;
+  font-size: large;
+}
+
 
 table  {
     border-collapse: collapse;
@@ -52,6 +65,5 @@ body {
 		background-position: 100% 50%;
 	}
 	100% {
-		background-position: 0% 50%;
-	}
+		background-position: 0% 
 }
